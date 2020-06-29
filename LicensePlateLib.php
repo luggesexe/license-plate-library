@@ -5,7 +5,7 @@ namespace lugges\LPL;
 class LicensePlateLib
 {
 
-	public function generateGermanLicensePlate($region = null, $city = null, $option = null) {
+	public function generateGermanLicensePlate($region = null, $city = null) {
 		include("license-plates.php");
 		if ($region == null) {
 			$region = array_rand($GermanLicensePlates);
