@@ -24,3 +24,10 @@ This example shows you how to generate a license plate for the FRG.
   
   $generateRandomFromNRW = $LPL->generateGermanLicensePlate("NRW");
 ```
+
+## Region codes
+
+| Country       | Region code   | Translation   |
+| ------------- | ------------- | ------------- |
+| Germany  | NRW  | North Rhine-Westphalia  |
+
