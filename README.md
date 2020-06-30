@@ -20,7 +20,8 @@ This example shows you how to generate a license plate for the FRG.
   echo $generate;
   
   // The generateGermanLicensePlate(); function accepts a region and a city parameter.
-  // At the current time region just accepts "NRW" and the city parameter any city code from the given array.
+  // The accepted region parameters are stated below.
+  // The city parameter is any city code from the given array.
   
   $generateRandomFromNRW = $LPL->generateGermanLicensePlate("NRW");
 ```
@@ -30,4 +31,6 @@ This example shows you how to generate a license plate for the FRG.
 | Country       | Region code   | Translation   |
 | ------------- | ------------- | ------------- |
 | Germany  | NRW  | North Rhine-Westphalia  |
+| Germany  | BV  | Bavaria  |
+
 
