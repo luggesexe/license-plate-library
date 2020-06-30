@@ -8,22 +8,22 @@ All functions are located in the `\lugges\LPL\LicensePlateLib` class.
 This example shows you how to generate a license plate for the FRG.
 
 ```php
-  // First require and use the Library
-  require('LicensePlateLib.php');
-  use \lugges\LPL\LicensePlateLib;
+// First require and use the Library
+require('LicensePlateLib.php');
+use \lugges\LPL\LicensePlateLib;
   
-  // Create a new license plate Library instance
-  $LPL = new LicensePlateLib;
+// Create a new license plate Library instance
+$LPL = new LicensePlateLib;
   
-  // Generate the license plate
-  $generate = $LPL->generateGermanLicensePlate();
-  echo $generate;
+// Generate the license plate
+$generate = $LPL->generateGermanLicensePlate();
+echo $generate;
   
-  // The generateGermanLicensePlate(); function accepts a region and a city parameter.
-  // The accepted region parameters are stated below.
-  // The city parameter is any city code from the given array.
+// The generateGermanLicensePlate(); function accepts a region and a city parameter.
+// The accepted region parameters are stated below.
+// The city parameter is any city code from the given array.
   
-  $generateRandomFromNRW = $LPL->generateGermanLicensePlate("NRW");
+$generateRandomFromNRW = $LPL->generateGermanLicensePlate("NRW");
 ```
 
 ## Region codes
