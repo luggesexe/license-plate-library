@@ -48,5 +48,12 @@ class LicensePlateLib
 		echo "Y ".$FNumberBlock." ".$SNumberBlock;
 	}
 
+	public function generateGermanWaterPlate() {
+		$DepartmentNumber = random_int(1, 6);
+		$NumberBlock = random_int(111, 999);
+
+		echo "BW ".$DepartmentNumber." ".$NumberBlock;
+	}
+
 }
 ?>

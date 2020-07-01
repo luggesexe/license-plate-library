@@ -11,10 +11,13 @@
 	$LPL = new LicensePlateLib;
 
 	$generateGermanLicensePlate = $LPL->generateGermanLicensePlate();
-	echo $generateGermanLicensePlate."<br>";
+	echo $generateGermanLicensePlate."<br>"; // Regular German license plate
 
 	$generateGermanArmyPlate = $LPL->generateGermanArmyPlate();
-	echo $generateGermanArmyPlate."<br>";
+	echo $generateGermanArmyPlate."<br>"; // German Army license plate
+
+	$generateGermanWaterPlate = $LPL->generateGermanWaterPlate();
+	echo $generateGermanWaterPlate."<br>"; // German license plate for the Federal Waterways and Shipping Administration
 ?>
 
 </body>
