@@ -34,5 +34,6 @@ $generateRandomFromNRW = $LPL->generateGermanLicensePlate("NRW");
 | ------------- | ------------- | ------------- |
 | Germany  | NRW  | North Rhine-Westphalia  |
 | Germany  | BV  | Bavaria  |
+| Germany  | BW  | Baden-Württemberg  |
 
 
