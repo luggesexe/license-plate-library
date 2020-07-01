@@ -39,6 +39,13 @@ class LicensePlateLib
 		}
 
 		echo $city." ".$Letters." ".$Number;
+		
+	}
+
+	public function generateGermanArmyPlate() {
+		$FNumberBlock = random_int(111, 999);
+		$SNumberBlock = random_int(111, 999);
+		echo "Y ".$FNumberBlock." ".$SNumberBlock;
 	}
 
 }
