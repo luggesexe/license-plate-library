@@ -13,14 +13,11 @@ class LicensePlateLib
 		if ($city == null) {
 			$city = array_rand($GermanLicensePlates[$region]);
 		}
-		
+
+		$FirstLetter = substr($GermanLicensePlateLetters, random_int(1, 25), 1);
+		$SecondLetter = substr($GermanLicensePlateLetters, random_int(1, 25), 1);
+
 		$Length = random_int(1, 2);
-		$StartFL = random_int(1, 25);
-		$StartSL = random_int(1, 25);
-
-
-		$FirstLetter = substr($GermanLicensePlateLetters, $StartFL, 1);
-		$SecondLetter = substr($GermanLicensePlateLetters, $StartSL, 1);
 
 		if ($Length == 1) {
 			$Letters = $FirstLetter;
@@ -43,16 +40,11 @@ class LicensePlateLib
 	}
 
 	public function generateGermanArmyPlate() {
-		$FNumberBlock = random_int(111, 999);
-		$SNumberBlock = random_int(111, 999);
-		echo "Y ".$FNumberBlock." ".$SNumberBlock;
+		echo "Y ".random_int(111, 999)." ".random_int(111, 999);
 	}
 
 	public function generateGermanWaterPlate() {
-		$DepartmentNumber = random_int(1, 6);
-		$NumberBlock = random_int(111, 999);
-
-		echo "BW ".$DepartmentNumber." ".$NumberBlock;
+		echo "BW ".random_int(1, 6)." ".random_int(111, 999);
 	}
 
 }
