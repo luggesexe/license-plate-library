@@ -27,6 +27,12 @@ echo $generate;
   
 $generateRandomFromNRW = $LPL->generateGermanLicensePlate("NRW");
 ```
+## 🧮 Functions
+```php
+generateGermanLicensePlate($region, $city); // Regular German license plate
+generateGermanArmyPlate(); // German Army license plate
+generateGermanWaterPlate(); // German license plate for the Federal Waterways and Shipping Administration
+```
 
 ## 🏙️ Region codes
 
