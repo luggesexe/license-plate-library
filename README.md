@@ -1,10 +1,10 @@
-# license-plate-library - Simple license plate generator
+# 🚗 license-plate-library - Simple license plate generator
  
 > Simple license plate generator for the Federal Republic of Germany (FRG).
 
-![license plate](https://upload.wikimedia.org/wikipedia/commons/9/99/Germany_%28D%29_European_Union_license_plate_-_Number_KA_PA_777.jpg)
+![license plate](https://github.com/luggesexe/license-plate-library/blob/master/LPL.png)
 
-## Basic Usage
+## 📖 Basic Usage
 All functions are located in the `\lugges\LPL\LicensePlateLib` class.
 
 This example shows you how to generate a license plate for the FRG.
@@ -27,8 +27,14 @@ echo $generate;
   
 $generateRandomFromNRW = $LPL->generateGermanLicensePlate("NRW");
 ```
+## 🧮 Functions
+```php
+generateGermanLicensePlate($region, $city); // Regular German license plate
+generateGermanArmyPlate(); // German Army license plate
+generateGermanWaterPlate(); // German license plate for the Federal Waterways and Shipping Administration
+```
 
-## Region codes
+## 🏙️ Region codes
 
 | Country       | Region code   | Translation   |
 | ------------- | ------------- | ------------- |
@@ -38,4 +44,7 @@ $generateRandomFromNRW = $LPL->generateGermanLicensePlate("NRW");
 | Germany  | H  | Hamburg  |
 | Germany  | B  | Berlin  |
 
-
+## 📝 Questions and Feedback
+If you have any questions feel free to open an Issue.
+Feedback is appreciated.
+Found a typo or want to help? Contributions are welcome.
