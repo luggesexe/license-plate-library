@@ -194,7 +194,13 @@
 			"WN" => "Waiblingen",
 			"WOL" => "Wolfach",
 			"WT" => "Waldshut"
-		)    
+		),
+		"B" => array(
+			"B" => "Berlin"
+		),
+		"H" => array(
+			"HH" => "Hansestadt Hamburg"
+		)
 	);
 
 ?>
