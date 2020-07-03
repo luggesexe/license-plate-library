@@ -44,4 +44,7 @@ generateGermanWaterPlate(); // German license plate for the Federal Waterways an
 | Germany  | H  | Hamburg  |
 | Germany  | B  | Berlin  |
 
-
+## 📝 Questions and Feedback
+If you have any questions feel free to open an Issue.
+Feedback is appreciated.
+Found a typo or want to help? Contributions are welcome.
