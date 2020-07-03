@@ -2,7 +2,7 @@
  
 > Simple license plate generator for the Federal Republic of Germany (FRG).
 
-![license plate](https://upload.wikimedia.org/wikipedia/commons/9/99/Germany_%28D%29_European_Union_license_plate_-_Number_KA_PA_777.jpg)
+![license plate](https://github.com/luggesexe/license-plate-library/blob/master/LPL.png)
 
 ## 📖 Basic Usage
 All functions are located in the `\lugges\LPL\LicensePlateLib` class.
