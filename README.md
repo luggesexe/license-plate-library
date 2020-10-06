@@ -2,7 +2,7 @@
  
 > Simple license plate generator for multiple countries.
 
-![license plate](https://github.com/luggesexe/license-plate-library/blob/master/LPL.png)
+<!--![license plate](https://github.com/luggesexe/license-plate-library/blob/master/LPL.png)-->
 
 ## 📖 Basic Usage
 All functions are located in the `\lugges\LPL\LicensePlateLib` class.
