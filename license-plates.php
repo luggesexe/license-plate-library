@@ -1,6 +1,7 @@
 <?php
 	
 	$GermanLicensePlateLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	$SpanishLicensePlateLetters = "BCDFGHJKLMNPQRSTVWXZ";
 	$GermanLicensePlates = array(
 	    "NRW" => array(
 		    "AC" => "Aachen",
@@ -200,6 +201,9 @@
 		),
 		"H" => array(
 			"HH" => "Hansestadt Hamburg"
+		),
+		"OfficialVehicles" => array(
+			"NRW" => "Official vehicle of North Rhine-Westphalia"
 		)
 	);
 

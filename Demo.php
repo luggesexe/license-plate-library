@@ -18,6 +18,15 @@
 
 	$generateGermanWaterPlate = $LPL->generateGermanWaterPlate();
 	echo $generateGermanWaterPlate."<br>"; // German license plate for the Federal Waterways and Shipping Administration
+	
+	$check = $LPL->searchPrefix("NRW");
+	echo $check;
+
+	$generateSpanishLicensePlate = $LPL->generateSpanishLicensePlate();
+	echo $generateSpanishLicensePlate."<br>";
+	
+
+
 ?>
 
 </body>

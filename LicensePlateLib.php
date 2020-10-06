@@ -4,7 +4,7 @@ namespace lugges\LPL;
 
 class LicensePlateLib
 {
-
+	// ######################################################################### Germany ######################################################################### //
 	public function generateGermanLicensePlate($region = null, $city = null) {
 		include("license-plates.php");
 		if ($region == null) {
@@ -40,12 +40,31 @@ class LicensePlateLib
 	}
 
 	public function generateGermanArmyPlate() {
-		echo "Y ".random_int(111, 999)." ".random_int(111, 999);
+		echo "Y ".random_int(100, 999)." ".random_int(100, 999);
 	}
 
 	public function generateGermanWaterPlate() {
 		echo "BW ".random_int(1, 6)." ".random_int(111, 999);
 	}
 
+	public function searchPrefix($code) {
+		include("license-plates.php");
+		foreach ($GermanLicensePlates as $GLP){
+		  foreach ($GLP as $key => $value){
+			  if($key == $code)
+			  	echo "$value";
+			}
+		}
+	}
+
+	// ######################################################################### Spain ######################################################################### //
+	public function generateSpanishLicensePlate() {
+		include("license-plates.php");
+		$FirstLetter = substr($SpanishLicensePlateLetters, random_int(1, 19), 1);
+		$SecondLetter = substr($SpanishLicensePlateLetters, random_int(1, 19), 1);
+		$ThirdLetter = substr($SpanishLicensePlateLetters, random_int(1, 19), 1);
+
+		echo random_int(1000, 9999)." ".$FirstLetter.$SecondLetter.$ThirdLetter;
+	}
 }
 ?>
